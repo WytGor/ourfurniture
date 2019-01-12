@@ -88,3 +88,6 @@ if ( !defined('ABSPATH') )
 require_once(ABSPATH . 'wp-settings.php');
 
 define('FS_METHOD', 'direct');
+
+define('WP_HOME', 'http://' . $_SERVER['SERVER_NAME']);
+define('WP_SITEURL', WP_HOME . '/');
