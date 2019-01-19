@@ -1,6 +1,5 @@
 jQuery(document).ready(function ($) {
 
-
     var header = $('.header')
     var main = $('.main');
 
@@ -106,6 +105,13 @@ jQuery(document).ready(function ($) {
                 menuBtn.removeClass('menuButton_light');
         }
     }
+
+    $('.portfolio__popup-link').magnificPopup({
+        type:'image',
+        gallery: {
+            enabled: true
+        }
+    });
 
     var $clientsSlider = $('#clients');
     if($clientsSlider.length) {
