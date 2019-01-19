@@ -22,6 +22,7 @@ a, button {
   left: 0;
   width: 100%;
   min-height: 100%;
+  background: url("../../images/back.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -673,11 +674,18 @@ body {
 .main {
   overflow: hidden;
   max-width: 2920px; }
-  .main_aboutUs {
-    margin: 0 0 80px !important; }
+  @media (min-width: 479px) {
+    .main_aboutUs {
+      margin: 0 0 80px !important; } }
+  @media (max-width: 479px) {
+    .main_aboutUs {
+      margin: 0 0 50px !important; } }
 
 .aboutUsWrap {
   padding: 150px 0; }
+  @media (max-width: 479px) {
+    .aboutUsWrap {
+      padding: 50px 0; } }
 
 .container-fluid {
   position: relative;
@@ -830,8 +838,7 @@ body {
   .mainMenu ul li a:hover, .mainMenu ul li a :focus, .mainMenu ul li a :active {
     color: #272727;
     outline: none;
-    text-decoration: none;
-    background: #c0301c; }
+    text-decoration: none; }
     @media (min-width: 991px) {
       .mainMenu ul li a:hover, .mainMenu ul li a :focus, .mainMenu ul li a :active {
         background: transparent;
@@ -840,11 +847,9 @@ body {
     .mainMenu ul li a {
       font-size: 18px; } }
 
-.mainMenu ul .current-menu-item a {
-  background: #c0301c; }
-  @media (min-width: 991px) {
-    .mainMenu ul .current-menu-item a {
-      background: transparent; } }
+@media (min-width: 991px) {
+  .mainMenu ul .current-menu-item a {
+    background: transparent; } }
 
 @media (min-width: 991px) {
   .mainMenu ul .current-menu-item {
@@ -852,6 +857,9 @@ body {
 
 .portfolioWrap {
   padding: 150px 0; }
+  @media (max-width: 479px) {
+    .portfolioWrap {
+      padding: 50px 0; } }
 
 .portfolio {
   position: fixed;
@@ -876,6 +884,9 @@ body {
     margin: 15px; }
   .portfolio__title {
     margin: 0 0 80px !important; }
+    @media (max-width: 479px) {
+      .portfolio__title {
+        margin: 0 0 50px !important; } }
 
 .portfolio__item:hover {
   -webkit-transform: scale(1.1);
@@ -912,6 +923,9 @@ body {
   background: #f7f7f7;
   min-height: 827px;
   padding: 150px 0; }
+  @media (max-width: 479px) {
+    .servicesWrap {
+      padding: 50px 0; } }
 
 .services__title {
   margin: 0 0 10px !important; }
@@ -920,6 +934,9 @@ body {
   font-size: 18px;
   font-weight: 300;
   margin: 0 0 80px 0; }
+  @media (max-width: 479px) {
+    .services__subtitle {
+      margin: 0 0 50px 0; } }
 
 .service {
   width: 263px;
@@ -1075,8 +1092,15 @@ footer {
 .clientcf {
   padding: 150px 0;
   min-height: 660px; }
-  .clientcf__title {
-    margin: 0 0 70px !important; }
+  @media (min-width: 479px) {
+    .clientcf__title {
+      margin: 0 0 70px !important; } }
+  @media (max-width: 479px) {
+    .clientcf__title {
+      margin: 0 0 50px !important; } }
+  @media (max-width: 479px) {
+    .clientcf {
+      padding: 50px 0; } }
 
 .form__input {
   width: 100%;
@@ -1435,9 +1459,17 @@ footer {
 .workStepsWrap {
   padding: 150px 0;
   background: #f7f7f7; }
+  @media (max-width: 479px) {
+    .workStepsWrap {
+      padding: 50px 0; } }
 
-.workSteps__title {
-  margin: 0 0 160px !important; }
+@media (min-width: 479px) {
+  .workSteps__title {
+    margin: 0 0 160px !important; } }
+
+@media (max-width: 479px) {
+  .workSteps__title {
+    margin: 0 0 50px !important; } }
 
 .step {
   position: relative;
