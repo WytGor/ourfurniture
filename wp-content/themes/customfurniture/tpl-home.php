@@ -150,7 +150,7 @@
                         </div>
                         <ul class="contact__list">
                             <li class="contact__item">
-                                <a href="+79044415778" class="contact__link">+7 (904) 441-57-78</a>
+                                <a href="tel:+79044415778" class="contact__link">+7 (904) 441-57-78</a>
                             </li>
                         </ul>
                     </div>
@@ -167,34 +167,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
-                    <form class="form">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <input type="text" class="form__input form__input_top" placeholder="ВАШЕ ИМЯ">
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <input type="text" class="form__input" placeholder="ВАШ E-MAIL">
-                            </div>
-                        </div>
-                        <div class="row form__separator">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <input type="text" class="form__input form__input_bottom" placeholder="ТЕМА ПИСЬМА">
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <input type="text" class="form__input" placeholder="НАЗВАНИЕ ВАШЕЙ КОМПАНИИ">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <textarea name="" id="" cols="30" rows="10" class="form__textarea" placeholder="НАПИШИТЕ СВОЕ СООБЩЕНИЕ"></textarea>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <input type="submit" class="form__submit" value="ОТПРАВИТЬ">
-                            </div>
-                        </div>
-                    </form>
+                    <?= do_shortcode('[contact-form-7 id="95" title="Свяжитесь с нами"]') ?>
                 </div>
             </div>
         </div>

@@ -1156,10 +1156,14 @@ footer {
 .form__submit {
   width: 170px;
   height: 45px;
-  margin-top: 15px;
   float: left;
   background: transparent;
   border: 1px solid #000; }
+
+.form__container {
+  float: left; }
+  .form__container input[type="checkbox"] {
+    margin: 0 0 0 -1em; }
 
 .contact__header {
   display: -webkit-box;

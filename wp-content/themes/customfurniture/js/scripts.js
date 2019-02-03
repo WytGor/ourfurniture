@@ -133,7 +133,9 @@ jQuery(document).ready(function ($) {
         $menuItem.on('click', function (event) {
             $('.current-menu-item').removeClass('current-menu-item');
             $(this).addClass('current-menu-item');
-            menuBtn.trigger('click');
+            if (isMainMenuActive) {
+                menuBtn.trigger('click');
+            }
         });
     }
 
