@@ -138,5 +138,24 @@ jQuery(document).ready(function ($) {
             }
         });
     }
+    
+    $('.wpcf7').on('wpcf7submit', function () {
+        $.magnificPopup.open({
+            items: {
+                src: '<div class="contact-popup">' +
+                '<h3>Спасибо! Мы свяжемся с вами в ближайшее время.</h3>' +
+                '<button type="button" class="btn btn-success">Ок</button>' +
+                '</div>',
+                type:'inline'
+            },
+            modal: true,
+            fixedContentPos: false
+        });
+        $('.contact-popup button').on('click', function (event) {
+            event.preventDefault();
+            $.magnificPopup.instance.close();
+        });
+        $('form').trigger('reset');
+    });
 
 });
