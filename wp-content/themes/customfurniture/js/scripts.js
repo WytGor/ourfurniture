@@ -146,12 +146,12 @@ jQuery(document).ready(function ($) {
                 '<p>Спасибо!<br> Мы свяжемся с вами в ближайшее время.</p>' +
                 '<button type="button" class="btn btn-success">Ок</button>' +
                 '</div>',
-                type:'inline'
-            },
-            modal: true,
-            fixedContentPos: false,
-            closeOnBgClick: true,
-            enableEscapeKey: true
+                type:'inline',
+                modal: true,
+                fixedContentPos: false,
+                closeOnBgClick: true,
+                enableEscapeKey: true
+            }
         });
         $('.contact-popup button').on('click', function (event) {
             event.preventDefault();
