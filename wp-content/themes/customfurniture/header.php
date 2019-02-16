@@ -64,6 +64,12 @@
 
             </div>
 
+            <div class="contactPhone">
+                <a href="tel:89044415778" class="contactPhone__tel">
+                    +7 (904) 441-79-09
+                </a>
+            </div>
+
             <div class="header_main">
                 <h1 class="header_title"><?php the_field('site_title', 'options'); ?></h1>
                 <h2 class="header_title header_title__bottom">Правильные решения нестандартных вопросов</h2>
