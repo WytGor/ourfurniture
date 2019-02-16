@@ -973,8 +973,8 @@ body {
   .service__orange {
     border-color: #feb960; }
   .service__img {
-    width: 60px;
-    height: 60px; }
+    width: 100px;
+    height: 100px; }
   .service__title {
     font-size: 22px; }
   .service__description {
