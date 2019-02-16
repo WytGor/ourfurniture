@@ -139,17 +139,19 @@ jQuery(document).ready(function ($) {
         });
     }
     
-    $('.wpcf7').on('wpcf7submit', function () {
+    $('.wpcf7').on('wpcf7mailsent', function () {
         $.magnificPopup.open({
             items: {
                 src: '<div class="contact-popup">' +
-                '<h3>Спасибо! Мы свяжемся с вами в ближайшее время.</h3>' +
+                '<p>Спасибо!<br> Мы свяжемся с вами в ближайшее время.</p>' +
                 '<button type="button" class="btn btn-success">Ок</button>' +
                 '</div>',
                 type:'inline'
             },
             modal: true,
-            fixedContentPos: false
+            fixedContentPos: false,
+            closeOnBgClick: true,
+            enableEscapeKey: true
         });
         $('.contact-popup button').on('click', function (event) {
             event.preventDefault();
