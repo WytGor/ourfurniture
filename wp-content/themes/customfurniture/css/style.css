@@ -617,6 +617,20 @@ html, body {
 body {
   overflow: hidden; }
 
+.logo {
+  font-family: 'Fjalla One', sans-serif;
+  position: absolute;
+  color: #fff;
+  font-size: 300px;
+  -webkit-transition: font-size 300ms;
+  transition: font-size 300ms;
+  top: 80px;
+  left: 40px;
+  opacity: 0.1; }
+  @media (max-width: 479px) {
+    .logo {
+      font-size: 150px; } }
+
 .home {
   overflow-y: scroll !important; }
 
@@ -627,6 +641,7 @@ body {
   display: block !important; }
 
 .header {
+  overflow: hidden;
   background-image: url("../images/back.jpg"); }
   .header_title {
     margin-bottom: 0;

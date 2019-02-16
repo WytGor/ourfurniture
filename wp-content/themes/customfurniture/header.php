@@ -24,6 +24,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . "/vendor/wow-animation/animate.min.css" ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . "/vendor/magnific-popup/magnific-popup.css" ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/css/style.css" ?>"/>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
 <body class="home">
@@ -35,7 +36,10 @@
         ?>
         <header class="header" style="background-image: url(<?= $backgroundSrc ?>);">
 
-
+            <div class="logo">
+                TROSCAN
+            </div>
+            
             <div class="header_menu header_menu_transparent">
                 <div class="menuButton menuButton_light">
                     <span class="menuButton__span"></span>
