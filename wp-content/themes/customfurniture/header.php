@@ -35,11 +35,11 @@
             $backgroundSrc =$image ?? get_template_directory_uri() . '/images/back.jpg';
         ?>
         <header class="header" style="background-image: url(<?= $backgroundSrc ?>);">
-
-            <div class="logo">
-                TROSCAN
-            </div>
             
+            <div class="logo">
+                T<span>&#8381;</span>OSCAN
+            </div>
+
             <div class="header_menu header_menu_transparent">
                 <div class="menuButton menuButton_light">
                     <span class="menuButton__span"></span>

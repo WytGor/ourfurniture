@@ -624,12 +624,17 @@ body {
   font-size: 300px;
   -webkit-transition: font-size 300ms;
   transition: font-size 300ms;
-  top: 80px;
+  top: 20px;
   left: 40px;
   opacity: 0.1; }
   @media (max-width: 479px) {
     .logo {
       font-size: 150px; } }
+  .logo span {
+    font-size: 340px; }
+    @media (max-width: 479px) {
+      .logo span {
+        font-size: 170px; } }
 
 .home {
   overflow-y: scroll !important; }
