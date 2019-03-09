@@ -142,10 +142,10 @@ jQuery(document).ready(function ($) {
     $('.wpcf7').on('wpcf7mailsent', function () {
         $.magnificPopup.open({
             items: {
-                src: '<div class="contact-popup">' +
+                src: '<div class="popups"><div class="contact-popup">' +
                 '<p>Спасибо!<br> Мы свяжемся с вами в ближайшее время.</p>' +
                 '<button type="button" class="btn btn-success">Ок</button>' +
-                '</div>',
+                '</div></div>',
                 type:'inline',
                 modal: true,
                 fixedContentPos: false,
