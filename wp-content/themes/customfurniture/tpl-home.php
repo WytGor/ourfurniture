@@ -150,7 +150,7 @@
                         </div>
                         <ul class="contact__list">
                             <li class="contact__item">
-                                <a href="tel:+79044415778" class="contact__link">+7 (904) 441-57-78</a>
+                                <a href="tel:+79044415778" class="contact__link"><?php the_field('contact_phone', 'options') ?></a>
                             </li>
                         </ul>
                     </div>
@@ -161,7 +161,7 @@
                         </div>
                         <ul class="contact__list">
                             <li class="contact__item">
-                                <a href="mailto:altabaev2013@gmail.com" class="contact__link">altabaev2013@gmail.com</a>
+                                <a href="mailto:altabaev2013@gmail.com" class="contact__link"><?php the_field('contact_email', 'options') ?></a>
                             </li>
                         </ul>
                     </div>

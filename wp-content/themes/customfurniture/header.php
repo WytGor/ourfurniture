@@ -72,7 +72,7 @@
 
             <div class="contactPhone">
                 <a href="tel:89044415778" class="contactPhone__tel">
-                    +7 (904) 441-79-09
+                    <?php the_field('contact_phone', 'options'); ?>
                 </a>
             </div>
 
