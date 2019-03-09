@@ -44,7 +44,7 @@
                 ?>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                         <div class="service <?php if ($query->current_post % 2 === 0) : ?> service__left <?php endif ?>service__top <?php the_field('additional_classes', get_the_ID()) ?>">
-                            <img src="<?= the_post_thumbnail_url() ?>" alt="" class="service__img" />
+                            <img src="<?= the_post_thumbnail_url() ?>" alt="" class="service__img" style="transform: scale(1.4);" />
                             <h4 class="service__title"><?= the_title() ?></h4>
                             <p class="service__description">
                                 <?= the_content() ?>
