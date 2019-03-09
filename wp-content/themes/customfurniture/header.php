@@ -73,6 +73,7 @@
             <div class="contactPhone">
                 <a href="tel:89044415778" class="contactPhone__tel">
                     <?php the_field('contact_phone', 'options'); ?>
+                    <p class="free-consultation">бесплатная консультация</p>
                 </a>
             </div>
 
