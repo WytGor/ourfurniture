@@ -93,7 +93,7 @@ jQuery(document).ready(function ($) {
     });
 
     function checkScroll() {
-        if(window.scrollY >= headerH){
+        if(window.scrollY >= headerH - 30){
             btn.css('bottom', '30px');
             menuBtn.removeClass('menuButton_light');
         }
