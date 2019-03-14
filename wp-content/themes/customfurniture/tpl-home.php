@@ -150,7 +150,9 @@
                         </div>
                         <ul class="contact__list">
                             <li class="contact__item">
-                                <a href="tel:+79044415778" class="contact__link"><?php the_field('contact_phone', 'options') ?></a>
+                                <a href="tel:<?php the_field('contact_phone', 'options') ?>" class="contact__link">
+                                    <?php the_field('contact_phone', 'options') ?>
+                                </a>
                             </li>
                         </ul>
                     </div>
