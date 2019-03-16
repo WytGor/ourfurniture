@@ -7,15 +7,15 @@ wp_footer();
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<div class="socials">
-						<a href="#" class="socialLink">
-							<img src="<?= get_template_directory_uri() . "images/vk.svg" ?>" alt="" class="socialLink__icon">
-						</a>
-						<a href="#" class="socialLink">
-							<img src="<?= get_template_directory_uri() . "images/instagram.svg" ?>" alt="" class="socialLink__icon">
-						</a>
-						<a href="#" class="socialLink">
-							<img src="<?= get_template_directory_uri() . "images/whatsapp.svg" ?>" alt="" class="socialLink__icon">
-						</a>
+<!--						<a href="#" class="socialLink">-->
+<!--							<img src="--><?//= get_template_directory_uri() . "/images/vk.svg" ?><!--" alt="" class="socialLink__icon">-->
+<!--						</a>-->
+<!--						<a href="#" class="socialLink">-->
+<!--							<img src="--><?//= get_template_directory_uri() . "/images/instagram.svg" ?><!--" alt="" class="socialLink__icon">-->
+<!--						</a>-->
+<!--						<a href="#" class="socialLink">-->
+<!--							<img src="--><?//= get_template_directory_uri() . "/images/whatsapp.svg" ?><!--" alt="" class="socialLink__icon">-->
+<!--						</a>-->
 					</div>
 					<p class="footer__copyright">
 						&#169; Мебель в Ростове 2018
