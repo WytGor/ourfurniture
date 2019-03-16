@@ -80,7 +80,7 @@
                     $query->the_post();
                     ?>
                         <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                            <div class="portfolioList__item animated wow slideInLeft">
+                            <div class="portfolioList__item animated wow slideInDown">
                                 <a href="<?php the_field('photo', get_the_ID()) ?>" class="portfolio__popup-link">
                                     <div class="portfolioList__img"
                                          style="background: url(<?php the_field('photo', get_the_ID()) ?>);"></div>
