@@ -85,8 +85,8 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                             <div class="label">
-                                <img src="<?= get_template_directory_uri() . "/images/coin.svg" ?>" alt="" class="label__icon">
-                                <p class="label__text label__text_green">Разумные цены</p>
+                                <img src="<?= get_template_directory_uri() . "/images/success.svg" ?>" alt="" class="label__icon">
+                                <p class="label__text label__text_orange">Высокое качество</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
@@ -97,8 +97,8 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                             <div class="label">
-                                <img src="<?= get_template_directory_uri() . "/images/success.svg" ?>" alt="" class="label__icon">
-                                <p class="label__text label__text_orange">Высокое качество</p>
+                                <img src="<?= get_template_directory_uri() . "/images/coin.svg" ?>" alt="" class="label__icon">
+                                <p class="label__text label__text_green">Честные цены</p>
                             </div>
                         </div>
                     </div>
