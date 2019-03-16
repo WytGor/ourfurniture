@@ -145,7 +145,7 @@
                 <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                     <div class="contact">
                         <div class="contact__header">
-                            <img src="images/smartphone-call.svg" alt="" class="contact__icon">
+                            <img src="<?= get_template_directory_uri() . 'images/smartphone-call.svg' ?>" alt="" class="contact__icon">
                             <h4 class="contact__title">ТЕЛЕФОН</h4>
                         </div>
                         <ul class="contact__list">
@@ -158,7 +158,7 @@
                     </div>
                     <div class="contact">
                         <div class="contact__header">
-                            <img src="images/email.svg" alt="" class="contact__icon">
+                            <img src="<?= get_template_directory_uri() . 'images/email.svg' ?>" alt="" class="contact__icon">
                             <h4 class="contact__title">E-MAIL</h4>
                         </div>
                         <ul class="contact__list">
