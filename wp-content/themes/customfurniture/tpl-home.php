@@ -114,7 +114,7 @@
             if($query->have_posts()) { while($query->have_posts()) {
             $query->the_post();
             ?>
-                <div class="step" style="background: url(<?php the_field('background_image', get_the_ID()) ?>);">
+                <div class="step" style="background-image: url(<?php the_field('background_image', get_the_ID()) ?>);">
                     <div class="step__content <?php the_field('additional_classes', get_the_ID()) ?> <?= $query->current_post % 2 === 0 ? ' step__content_left ' : ' step__content_right ' ?>">
                         <h4 class="step__title">
                             <?php the_title() ?>
