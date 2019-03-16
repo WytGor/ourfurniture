@@ -119,9 +119,9 @@
                         <h4 class="step__title">
                             <?php the_title() ?>
                         </h4>
-                        <p class="step__description">
+                        <div class="step__description">
                             <?php the_content() ?>
-                        </p>
+                        </div>
                     </div>
                 </div>
                 <?php
