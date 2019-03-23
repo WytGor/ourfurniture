@@ -62,13 +62,6 @@
                     </div>
                 </nav>
 
-                <div class="searchpanel">
-                    <a href="#!" id="searchbutton" class="searchpanel__button" style="background-image: url(images/search.png);"></a>
-                    <form class="searchform">
-                        <input type="text" class="searchform__input" placeholder="Поиск...">
-                    </form>
-                </div>
-
             </div>
 
             <div class="contactPhone">
