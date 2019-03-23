@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
-    <title>Встроенная мебель на заказ в Ростове-на-Дону</title>
+    <title><?php the_field('site_title', 'options'); ?></title>
+    <meta name="description" content="<?= the_field('site_description', 'options'); ?>">
+    <meta name="keywords" content="<?= the_field('site_keywords', 'options'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
