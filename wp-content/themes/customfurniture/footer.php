@@ -6,13 +6,15 @@ wp_footer();
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<div class="socials">
-						<?php while (have_rows('social')) : the_row() ?>
-							<a href="<?php the_sub_field('link') ?>" class="socialLink">
-								<img src="<?php the_sub_field('icon') ?>" alt="" class="socialLink__icon">
-							</a>
-						<?php endwhile; ?>
-					</div>
+					<?php if (have_rows('social')) : ?>
+						<div class="socials">
+							<?php while (have_rows('social')) : the_row() ?>
+								<a href="<?php the_sub_field('link') ?>" class="socialLink">
+									<img src="<?php the_sub_field('icon') ?>" alt="" class="socialLink__icon">
+								</a>
+							<?php endwhile; ?>
+						</div>
+					<?php endif; ?>
 					<p class="footer__copyright">
 						&#169; Мебель в Ростове 2018
 					</p>
