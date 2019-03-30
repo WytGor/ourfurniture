@@ -54,6 +54,8 @@
 
                 <nav class="mainMenu">
                     <div class="mainMenu__wrapper container">
+                        <div class="logotype" style="background-image: url(<?= get_template_directory_uri() . "/images/logo.png" ?>);">
+                        </div>
                         <?php
                         $args = array(
                             'theme_location'=>'top',
