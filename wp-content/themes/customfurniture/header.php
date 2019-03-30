@@ -52,6 +52,8 @@
                     <span class="menuButton__span"></span>
                 </div>
 
+                <div class="siteicon" style="background-image: url(<?= get_template_directory_uri() . "/images/siteicon.png" ?>)"></div>
+
                 <nav class="mainMenu">
                     <div class="mainMenu__wrapper container">
                         <div class="logotype" style="background-image: url(<?= get_template_directory_uri() . "/images/logo.png" ?>);">
