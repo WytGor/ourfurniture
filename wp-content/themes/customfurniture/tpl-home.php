@@ -163,7 +163,7 @@
                         </div>
                         <ul class="contact__list">
                             <li class="contact__item">
-                                <a href="mailto:altabaev2013@gmail.com" class="contact__link"><?php the_field('contact_email', 'options') ?></a>
+                                <a href="mailto:<?php the_field('contact_email', 'options') ?>" class="contact__link"><?php the_field('contact_email', 'options') ?></a>
                             </li>
                         </ul>
                     </div>
