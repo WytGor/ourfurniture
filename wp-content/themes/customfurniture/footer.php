@@ -16,7 +16,7 @@ wp_footer();
 						</div>
 					<?php endif; ?>
 					<p class="footer__copyright">
-						&#169; Мебель в Ростове 2018
+<!--						&#169; ТРОСКАН 2018-->
 					</p>
 				</div>
 			</div>
