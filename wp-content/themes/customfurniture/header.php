@@ -40,8 +40,6 @@
         <header class="header" style="background-image: url(<?= $backgroundSrc ?>);">
 
             <div class="logo">
-<!--                Логотип с символом рубля-->
-<!--                T<span>&#8381;</span>OSCAN-->
                 TROSCAN
             </div>
 
@@ -51,8 +49,6 @@
                     <span class="menuButton__span"></span>
                     <span class="menuButton__span"></span>
                 </div>
-
-                <div class="siteicon" style="background-image: url(<?= get_template_directory_uri() . "/images/siteicon.png" ?>)"></div>
 
                 <nav class="mainMenu">
                     <div class="mainMenu__wrapper container">
