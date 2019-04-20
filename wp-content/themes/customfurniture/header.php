@@ -94,7 +94,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                             <div class="label">
                                 <img src="<?= get_template_directory_uri() . "/images/coin.svg" ?>" alt="" class="label__icon">
-                                <p class="label__text label__text_green">Честные цены</p>
+                                <p class="label__text label__text_green">Благородные цены</p>
                             </div>
                         </div>
                     </div>

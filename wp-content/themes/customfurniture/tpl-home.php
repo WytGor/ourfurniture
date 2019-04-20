@@ -63,6 +63,11 @@
             <div class="col-lg-3 col-md-3 col-sm-2 hidden-xs"></div>
             <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
                 <h3 class="portfolio__title wow zoomIn"><?php the_field('portfolio_title', 'options') ?></h3>
+                <h4 class="portfolio__subtitle">
+                    <a href="<?php the_field('instagram_link', 'option') ?>" target="_blank">
+                        <?php the_field('portfolio_subtitle', 'option') ?>
+                    </a>
+                </h4>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-2 hidden-xs"></div>
         </div>
