@@ -645,7 +645,7 @@ body {
   right: 0;
   top: 73.5px;
   width: 100%; }
-  @media (min-width: 991px) {
+  @media (min-width: 1470px) {
     .logotype {
       position: fixed;
       left: 2%;
