@@ -787,7 +787,7 @@ body {
   margin: 15px 20px; }
   .menuButton:hover {
     cursor: pointer; }
-  @media (min-width: 991px) {
+  @media (min-width: 1470px) {
     .menuButton {
       display: none; } }
   .menuButton_light span {
@@ -831,7 +831,7 @@ body {
   transition: all 600ms;
   -webkit-box-shadow: 0 0 10px rgba(72, 77, 93, 0.4);
   box-shadow: 0 0 10px rgba(72, 77, 93, 0.4); }
-  @media (min-width: 991px) {
+  @media (min-width: 1470px) {
     .mainMenu {
       position: fixed;
       min-height: 75px;
@@ -862,7 +862,7 @@ body {
   margin: 0;
   width: 100%;
   list-style: none; }
-  @media (min-width: 991px) {
+  @media (min-width: 1470px) {
     .mainMenu ul {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -873,7 +873,7 @@ body {
 .mainMenu ul li {
   display: block;
   width: 100%; }
-  @media (min-width: 991px) {
+  @media (min-width: 1470px) {
     .mainMenu ul li {
       width: auto; } }
 
@@ -888,19 +888,19 @@ body {
     color: #272727;
     outline: none;
     text-decoration: none; }
-    @media (min-width: 991px) {
+    @media (min-width: 1470px) {
       .mainMenu ul li a:hover, .mainMenu ul li a :focus, .mainMenu ul li a :active {
         background: transparent;
         font-size: 18px; } }
-  @media (min-width: 991px) {
+  @media (min-width: 1470px) {
     .mainMenu ul li a {
       font-size: 18px; } }
 
-@media (min-width: 991px) {
+@media (min-width: 1470px) {
   .mainMenu ul .current-menu-item a {
     background: transparent; } }
 
-@media (min-width: 991px) {
+@media (min-width: 1470px) {
   .mainMenu ul .current-menu-item {
     border-left: none; } }
 
