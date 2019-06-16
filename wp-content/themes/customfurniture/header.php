@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
-    <title><?php the_field('site_title', 'options'); ?></title>
+    <title><?php the_field('site_head_title', 'options'); ?></title>
     <meta name="description" content="<?php the_field('site_description', 'options'); ?>">
     <meta name="keywords" content="<?php the_field('site_keywords', 'options'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
