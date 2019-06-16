@@ -695,6 +695,9 @@ body {
         .header_title__bottom {
           margin: 0 0 40px;
           font-size: 12px; } }
+    .header_title__services {
+      margin: 0 0 15px;
+      font-size: 40px; }
 
 .labelsWrap {
   max-width: 750px; }
@@ -845,7 +848,7 @@ body {
       transform: none !important; } }
   .mainMenu__wrapper {
     width: auto; }
-    @media (min-width: 991px) {
+    @media (min-width: 1470px) {
       .mainMenu__wrapper {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -962,7 +965,7 @@ body {
 .portfolio .mCSB_scrollTools {
   opacity: 0 !important; }
 
-.main h3 {
+.main .h3 {
   font-family: "Intro";
   font-size: 40px; }
 
