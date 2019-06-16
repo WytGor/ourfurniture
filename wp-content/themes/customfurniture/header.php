@@ -75,6 +75,7 @@
 
             <div class="header_main">
                 <h1 class="header_title"><?php the_field('site_title', 'options'); ?></h1>
+                <h2 class="header_title header_title__services"><?php the_field('site_services', 'options') ?></h2>
                 <h2 class="header_title header_title__bottom">Правильные решения нестандартных вопросов</h2>
 
                 <div class="container labelsWrap">

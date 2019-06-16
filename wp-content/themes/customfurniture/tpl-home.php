@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-2 hidden-xs"></div>
             <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
-                <h3 class="main_aboutUs wow zoomIn"><?php the_field('about_us_title', 'options') ?></h3>
+                <div class="main_aboutUs wow zoomIn h3"><?php the_field('about_us_title', 'options') ?></div>
                 <div class="main_aboutUsText wow bounceInLeft">
                     <?php the_field('about_us_text', 'options') ?>
                 </div>
@@ -25,7 +25,7 @@
         <div class="row wow bounceInLeft" data-wow-delay="0.5s">
             <div class="col-lg-3 col-md-3 col-sm-2 hidden-xs"></div>
             <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
-                <h3 class="services__title wow zoomIn"><?php the_field('services_title', 'options') ?></h3>
+                <div class="services__title wow zoomIn h3"><?php the_field('services_title', 'options') ?></div>
                 <h4 class="services__subtitle wow zoomIn"><?php the_field('services_subtitle', 'options') ?></h4>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-2 hidden-xs"></div>
@@ -62,7 +62,7 @@
         <div class="row wow bounceInLeft" data-wow-delay="0.5s">
             <div class="col-lg-3 col-md-3 col-sm-2 hidden-xs"></div>
             <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
-                <h3 class="portfolio__title wow zoomIn"><?php the_field('portfolio_title', 'options') ?></h3>
+                <div class="portfolio__title wow zoomIn h3"><?php the_field('portfolio_title', 'options') ?></div>
                 <h4 class="portfolio__subtitle">
                     <a href="<?php the_field('instagram_link', 'option') ?>" target="_blank">
                         <?php the_field('portfolio_subtitle', 'option') ?>
@@ -103,7 +103,7 @@
         <div class="row wow bounceInLeft" data-wow-delay="0.5s">
             <div class="col-lg-3 col-md-3 col-sm-2 hidden-xs"></div>
             <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
-                <h3 class="workSteps__title wow zoomIn"><?php the_field('work_process_title', 'options') ?></h3>
+                <div class="workSteps__title wow zoomIn h3"><?php the_field('work_process_title', 'options') ?></div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-2 hidden-xs"></div>
         </div>
@@ -140,7 +140,7 @@
         <div class="row wow bounceInLeft" data-wow-delay="0.5s">
             <div class="col-lg-3 col-md-3 col-sm-2 hidden-xs"></div>
             <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
-                <h3 class="clientcf__title wow zoomIn"><?php the_field('contact_us_title', 'options') ?></h3>
+                <div class="clientcf__title wow zoomIn h3"><?php the_field('contact_us_title', 'options') ?></div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-2 hidden-xs"></div>
         </div>
