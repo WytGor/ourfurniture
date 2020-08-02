@@ -104,8 +104,12 @@
             <div class="col-lg-3 col-md-3 col-sm-2 hidden-xs"></div>
             <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
                 <div class="workSteps__title wow zoomIn h3"><?php the_field('work_process_title', 'options') ?></div>
+                <h4 class="workSteps__subtitle">
+                    <a href="<?php the_field('work_process_file', 'option') ?>">
+                        Посмотреть договор
+                    </a>
+                </h4>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-2 hidden-xs"></div>
         </div>
         <div class="container workSteps">
             <?php

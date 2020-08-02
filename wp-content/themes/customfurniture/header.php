@@ -69,14 +69,10 @@
             <div class="contactPhone">
                 <a href="tel:<?php the_field('contact_phone', 'options'); ?>" class="contactPhone__tel">
                     <?php the_field('contact_phone', 'options'); ?>
-                    <p class="free-consultation">бесплатная консультация</p>
                 </a>
             </div>
 
             <div class="header_main">
-                <h1 class="header_title"><?php the_field('site_title', 'options'); ?></h1>
-                <h2 class="header_title header_title__bottom">Правильные решения нестандартных вопросов</h2>
-
                 <div class="container labelsWrap">
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
@@ -94,11 +90,14 @@
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                             <div class="label">
                                 <img src="<?= get_template_directory_uri() . "/images/coin.svg" ?>" alt="" class="label__icon">
-                                <p class="label__text label__text_green">Комфортные цены</p>
+                                <p class="label__text label__text_green"><a href="https://youtube.com" class="label__text_green">Посмотреть цены</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <h1 class="header_title"><?php the_field('site_title', 'options'); ?></h1>
+                <h2 class="header_title header_title__bottom">Правильные решения нестандартных вопросов</h2>
 
                 <div class="arrowDown">
                     <div class="arrow_1 clearfix">

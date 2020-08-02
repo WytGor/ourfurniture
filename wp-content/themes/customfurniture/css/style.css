@@ -29,8 +29,8 @@ a, button {
   background-attachment: fixed;
   color: #ffffff; }
 
-.header a {
-  color: #ffffff; }
+/*.header a {*/
+/*  color: #ffffff; }*/
 
 .header_menu {
   position: relative;
@@ -63,7 +63,7 @@ a, button {
   font-size: 18px; }
 
 .header_main {
-  padding: 200px 0; }
+  padding: 400px 0; }
 
 @media (max-width: 450px) {
   .header_main {
@@ -75,7 +75,9 @@ a, button {
 
 .header_title {
   text-align: center;
-  font-size: 68px; }
+  font-size: 68px;
+  margin: 0;
+}
 
 @media (max-width: 768px) {
   .header_title {
@@ -674,8 +676,9 @@ body {
 
 .header {
   overflow: hidden;
-  background-image: url("../images/back.jpg"); }
+  background-image: url("../images/back.jpg");}
   .header_title {
+    margin-top: 0;
     margin-bottom: 0;
     font-variant-caps: all-petite-caps; }
     @media (max-width: 360px) {
@@ -1137,7 +1140,7 @@ footer {
   -ms-flex-pack: center;
   justify-content: center;
   min-height: 299px;
-  background: #c0301c; }
+  background: #3d3d3d; }
 
 .underfooter {
   height: 350px;
@@ -1552,13 +1555,20 @@ footer {
     .workStepsWrap {
       padding: 50px 0; } }
 
-@media (min-width: 479px) {
-  .workSteps__title {
-    margin: 0 0 160px !important; } }
+.workSteps__title {
+  margin: 0 0 10px; }
 
-@media (max-width: 479px) {
-  .workSteps__title {
-    margin: 0 0 50px !important; } }
+.workSteps__subtitle {
+  margin: 0 0 80px;
+  font-size: 18px;
+  font-weight: 300; }
+
+.workSteps__subtitle a {
+  text-decoration: none; }
+
+.workSteps__subtitle a:hover {
+  text-decoration: none;
+}
 
 .step {
   position: relative;
