@@ -640,21 +640,27 @@ body {
 
 .logotype {
   position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 58px;
-  z-index: 500;
-  right: 0;
-  top: 73.5px;
-  width: 100%; }
+  top: 75px;
+  left: 12px;
+}
+
   @media (min-width: 1470px) {
     .logotype {
       position: fixed;
       left: 2%;
-      top: 0;
+      top: 10px;
       width: 300px;
       height: 75px;
       background-position: -15px 50%; } }
+
+.logotype a {
+  font-family: "Intro", sans-serif;
+  font-size: 40px;
+  color: black;
+  }
+.logotype a:hover {
+  text-decoration: none;
+}
 
 .siteicon {
   position: fixed;
@@ -1028,10 +1034,10 @@ body {
 
 .service {
   width: 263px;
-  height: 400px;
+  height: 398px;
   background: #fff;
   border-bottom: 3px solid;
-  padding: 65px 40px 70px; }
+  padding: 65px 20px 70px; }
   .service__red {
     border-color: #fc5f45; }
   .service__green {
@@ -1140,7 +1146,27 @@ footer {
   -ms-flex-pack: center;
   justify-content: center;
   min-height: 299px;
-  background: #3d3d3d; }
+  background: #1d1d1d; }
+
+.footer__phone {
+  text-align: center;
+}
+
+.footer__phone-link {
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #353535;
+  transition: background-color 200ms;
+  display: inline-block;
+  border-radius: 7px;
+  padding: 10px 17px;
+}
+
+.footer__phone-link:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #585858;
+}
 
 .underfooter {
   height: 350px;
@@ -1706,7 +1732,7 @@ footer {
   border-radius: 7px;
   font-size: 18px;
   background: rgba(0, 0, 0, 0.49);
-  top: calc(75px / 2 - 57px / 2);
+  top: 17px;
   right: 2%;
   z-index: 100; }
   .contactPhone__tel {
@@ -1717,6 +1743,8 @@ footer {
     text-decoration: none; }
     .contactPhone__tel:hover, .contactPhone__tel:focus, .contactPhone__tel:active {
       text-decoration: none; }
+
+
 
 .free-consultation {
   position: absolute;
@@ -1729,3 +1757,6 @@ footer {
   left: 0;
   margin: 0;
   text-transform: uppercase; }
+
+/*Цены*/
+

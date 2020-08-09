@@ -11,6 +11,11 @@ wp_footer();
 							<img src="<?= get_template_directory_uri() . "/images/instagram.svg" ?>" alt="" class="socialLink__icon">
 						</a>
 					</div>
+                    <div class="footer__phone">
+                        <a href="tel:<?php the_field('contact_phone', 'options'); ?>" class="footer__phone-link">
+                            <?php the_field('contact_phone', 'options'); ?>
+                        </a>
+                    </div>
 					<p class="footer__copyright">
 <!--						&#169; ТРОСКАН 2018-->
 					</p>

@@ -7,6 +7,73 @@
     get_header();
 ?>
 
+
+
+
+<?php
+$image = get_field('background_image', 'options');
+$backgroundSrc =$image ?? get_template_directory_uri() . '/images/back.jpg';
+?>
+<header class="header" style="background-image: url(<?= $backgroundSrc ?>);">
+
+    <div class="logo">
+        TROSCAN
+    </div>
+
+    <div class="contactPhone">
+        <a href="tel:<?php the_field('contact_phone', 'options'); ?>" class="contactPhone__tel">
+            <?php the_field('contact_phone', 'options'); ?>
+        </a>
+    </div>
+
+    <div class="header_main">
+        <div class="container labelsWrap">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <div class="label">
+                        <img src="<?= get_template_directory_uri() . "/images/success.svg" ?>" alt="" class="label__icon">
+                        <p class="label__text label__text_orange">Высокое качество</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <div class="label">
+                        <img src="<?= get_template_directory_uri() . "/images/clock.svg" ?>" alt="" class="label__icon">
+                        <p class="label__text label__text_purple">Разумное время</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <div class="label">
+                        <a href="#"><img src="<?= get_template_directory_uri() . "/images/coin.svg" ?>" alt="" class="label__icon"></a>
+                        <p class="label__text"><a href="#" class="label__text_green">Посмотреть цены</a></p>
+
+                        <!-- Заменить ссылку на 96 и 97 строке -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="header_title"><?php the_field('site_title', 'options'); ?></h1>
+        <h2 class="header_title header_title__bottom">Правильные решения нестандартных вопросов</h2>
+
+        <div class="arrowDown">
+            <div class="arrow_1 clearfix">
+                <span class="arrowDown__left"></span>
+                <span class="arrowDown__right"></span>
+            </div>
+            <div class="arrow_2 clearfix">
+                <span class="arrowDown__left"></span>
+                <span class="arrowDown__right"></span>
+            </div>
+            <div class="arrow_3 clearfix">
+                <span class="arrowDown__left"></span>
+                <span class="arrowDown__right"></span>
+            </div>
+        </div>
+    </div>
+
+</header>
+
 <section class="main main_marginTop">
     <div class="container-fluid aboutUsWrap" id="aboutus">
         <div class="row">
@@ -184,6 +251,9 @@
         </div>
     </div>
 </section>
+
+
+
 
 <?php
     get_footer();
