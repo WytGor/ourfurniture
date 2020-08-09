@@ -7,9 +7,6 @@
     get_header();
 ?>
 
-
-
-
 <?php
 $image = get_field('background_image', 'options');
 $backgroundSrc =$image ?? get_template_directory_uri() . '/images/back.jpg';
