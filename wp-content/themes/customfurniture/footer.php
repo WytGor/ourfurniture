@@ -36,6 +36,7 @@ wp_footer();
 <script src="<?= get_template_directory_uri() . "/vendor/wow-animation/wow.min.js" ?>"></script>
 <script src="<?= get_template_directory_uri() . "/vendor/anchor/sweet-links-min.js" ?>"></script>
 <script src="<?= get_template_directory_uri() . "/vendor/magnific-popup/jquery.magnific-popup.min.js" ?>"></script>
+<!--<script src="--><?//= get_template_directory_uri() . "/vendor/fotorama/fotorama.js" ?><!--"></script>-->
 <script src="<?= get_template_directory_uri() . "/js/scripts.js" ?>"></script>
 <script>
 	new WOW().init();
