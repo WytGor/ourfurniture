@@ -725,6 +725,9 @@ body {
         font-size: 14px; } }
     .label__text_green {
       color: #38c695; }
+    .label__text_green:hover {
+      text-decoration: none;
+      color: #38c695; }
     .label__text_purple {
       color: #b27cf5; }
     .label__text_orange {
