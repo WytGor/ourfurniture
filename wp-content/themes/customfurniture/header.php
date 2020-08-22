@@ -25,8 +25,8 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/css/bootstrap-theme.css" ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . "/vendor/wow-animation/animate.min.css" ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . "/vendor/magnific-popup/magnific-popup.css" ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/css/style.css" ?>"/>
-    <link rel="stylesheet" href="/wp-content/themes/customfurniture/css/style.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/vendor/fotorama/fotorama.css" ?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/css/style.css" ?>">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <meta name="yandex-verification" content="9bf32be54852ed62" />
     <?php wp_head(); ?>
