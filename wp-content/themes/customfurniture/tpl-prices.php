@@ -17,14 +17,16 @@ get_header();
                 <?php foreach (get_field('prices_cards') as $card) : ?>
                     <div class="prices-page__col">
                         <div class="price-card">
-                            <div class="price-card__img-wrapper">
-                                <div class="fotorama">
-                                    <?php foreach ($card['gallery'] as $galleryItem) : ?>
-                                        <img src="<?= $galleryItem['sizes']['medium_large'] ?>"
-                                             alt="<?= $galleryItem['title'] ?>" class="price-card__img">
-                                    <?php endforeach; ?>
+                            <?php if (!empty($card['gallery'])) : ?>
+                                <div class="price-card__img-wrapper">
+                                    <div class="fotorama">
+                                        <?php foreach ($card['gallery'] as $galleryItem) : ?>
+                                            <img src="<?= $galleryItem['sizes']['medium_large'] ?>"
+                                                 alt="<?= $galleryItem['title'] ?>" class="price-card__img">
+                                        <?php endforeach; ?>
+                                    </div>
                                 </div>
-                            </div>
+                            <?php endif; ?>
                             <h3 class="price-card__title"><?= $card['title'] ?></h3>
                             <p class="price-card__description">Описание:<br><?= $card['description'] ?></p>
                             <p class="price-card__price"><?= $card['price'] ?> руб.</p>
