@@ -29,9 +29,6 @@ a, button {
   background-attachment: fixed;
   color: #ffffff; }
 
-/*.header a {*/
-/*  color: #ffffff; }*/
-
 .header_menu {
   position: relative;
   min-height: 70px; }
@@ -1747,9 +1744,8 @@ footer {
     color: white;
     text-decoration: none; }
     .contactPhone__tel:hover, .contactPhone__tel:focus, .contactPhone__tel:active {
-      text-decoration: none; }
-
-
+      text-decoration: none;
+      color: white; }
 
 .free-consultation {
   position: absolute;
