@@ -40,7 +40,7 @@ $backgroundSrc =$image ?? get_template_directory_uri() . '/images/back.jpg';
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                     <div class="label">
-                        <a href="#"><img src="<?= get_template_directory_uri() . "/images/coin.svg" ?>" alt="" class="label__icon"></a>
+                        <a href="/prices"><img src="<?= get_template_directory_uri() . "/images/coin.svg" ?>" alt="" class="label__icon"></a>
                         <p><a href="/prices" class="label__text label__text_green">Посмотреть цены</a></p>
                         <!-- Заменить ссылку на 96 и 97 строке -->
                     </div>

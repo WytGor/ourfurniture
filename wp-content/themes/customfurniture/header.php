@@ -44,7 +44,7 @@
     <nav class="mainMenu">
         <div class="mainMenu__wrapper container">
             <div class="logotype">
-                <a href="#">TROSCAN</a>
+                <a href="/#">TROSCAN</a>
             </div>
             <?php
             $args = array(
